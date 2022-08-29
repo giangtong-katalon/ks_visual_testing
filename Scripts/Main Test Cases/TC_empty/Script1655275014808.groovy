@@ -20,6 +20,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://google.com')
 
+WebUI.setViewPortSize(1366, 768)
+
 WebUI.takeScreenshotAsCheckpoint('checkpoint')
 
 WebUI.closeBrowser()
